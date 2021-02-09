@@ -1,1 +1,1 @@
-from uncleengineer.stock import thaistock
+from doraemonthai.thaidate import thaidate

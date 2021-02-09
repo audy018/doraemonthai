@@ -1,0 +1,15 @@
+pip install .  ติดตั้งลงเครื่อง  
+
+อัพโหลดขึ้น PyPI กับ TestPyPI กันเลย
+$ python setup.py sdist
+$ python3 setup.py sdist bdist_wheel
+
+$ pip install twine --upgrade
+$ python3 -m pip install --user --upgrade twine
+
+
+TestPyPI
+$ twine upload --repository-url https://test.pypi.org/legacy/ dist/* 
+
+PyPI
+$ twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
