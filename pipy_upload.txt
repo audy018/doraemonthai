@@ -1,3 +1,6 @@
+https://www.w3resource.com/python-exercises/date-time-exercise/python-date-time-exercise-16.php
+
+
 pip install .  ติดตั้งลงเครื่อง  
 
 อัพโหลดขึ้น PyPI กับ TestPyPI กันเลย
